@@ -1,0 +1,47 @@
+name: weatherprojectnew
+description: A simple weather app
+
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^14.0.0
+  http: ^1.3.0
+  sqflite: ^2.0.0+4
+  flutter_local_notifications: ^19.1.0
+  image_picker: ^1.1.2
+  camera: ^0.11.1
+  google_ml_kit: ^0.20.0
+  path_provider: ^2.1.1
+  path: ^1.9.0
+  permission_handler: ^11.1.1
+  awesome_notifications: 0.10.1
+  share_plus: ^11.0.0
+  speech_to_text: ^7.0.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.12.0
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  firebase_auth_mocks: ^0.13.0
+  mockito: ^5.0.0
+  test: ^1.20.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/sunny.jpg
+    - assets/images/rainy.jpg
+    - assets/images/cloudy.jpg
+    - assets/images/thunderstorm.jpg
+    - assets/images/snowy.jpg
